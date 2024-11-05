@@ -1,0 +1,28 @@
+{
+  "name": "node.js-rest-api",
+  "version": "1.0.0",
+  "description": "rest api tutorial",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node --unhandled-rejections=strict ./dist/app.js",
+    "debug": "SET DEBUG=* && npm run start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "KentonEnoid",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "debug": "^4.3.7",
+    "express": "^4.21.1",
+    "express-winston": "^4.2.0",
+    "winston": "^3.16.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/debug": "^4.1.12",
+    "@types/express": "^5.0.0",
+    "source-map-support": "^0.5.21",
+    "tslint": "^5.20.1",
+    "typescript": "^5.6.3"
+  }
+}

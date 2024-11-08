@@ -11,6 +11,7 @@
   "author": "KentonEnoid",
   "license": "ISC",
   "dependencies": {
+    "argon2": "^0.41.1",
     "cors": "^2.8.5",
     "debug": "^4.3.7",
     "express": "^4.21.1",
